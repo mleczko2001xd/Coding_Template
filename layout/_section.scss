@@ -1,0 +1,45 @@
+.ourcars{
+    height: auto;
+    &__title{
+        font-size: 2em;
+       
+    }
+    &__flex{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 100px;
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        height:20%;
+    }
+    &__line-bettwen{
+        border-left: 6px solid green;
+        height: 100%;
+        width:1px;
+
+        
+    }
+    &__text{
+        background-color: blue;
+    }
+    &__img{
+        border: 1px solid greenyellow;
+    }
+  
+    
+}
+.promotion{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 20em;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    &__time{
+        color: white;
+    }
+}
+.reigistry{
+    height: 10em;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}

@@ -1,9 +1,9 @@
+
 .image1{
     height: 100vh;
    width: 100%;
-   background-image: linear-gradient(to right, rgba(109, 179, 242, .4), rgba(109, 179, 242, .4)), url(/img/image1.jpeg);
-
-    background-repeat: no-repeat;
+   background: url(img/header.jpeg);
+   background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
