@@ -1,0 +1,14 @@
+@keyframes shake-bmw{
+    0%{
+    transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg)
+    }
+    90%{
+        transform: rotate(30deg)
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    }
