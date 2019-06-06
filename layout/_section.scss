@@ -1,12 +1,16 @@
 .ourcars{
     height: auto;
+<<<<<<< HEAD
 
+=======
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
     &__title{
         font-size: 2em;
        
     }
     &__flex{
         display: flex;
+<<<<<<< HEAD
         justify-content: space-between;
         margin-top: 100px;
         width: 100%;    
@@ -21,6 +25,12 @@
         
         
        
+=======
+        justify-content: space-around;
+        margin-top: 100px;
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        height:20%;
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
     }
     &__line-bettwen{
         border-left: 6px solid green;
@@ -29,6 +39,7 @@
 
         
     }
+<<<<<<< HEAD
     
      
     &__border{
@@ -52,6 +63,16 @@
     &__text{
         background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     }
+=======
+    &__text{
+        background-color: blue;
+    }
+    &__img{
+        border: 1px solid greenyellow;
+    }
+  
+    
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
 }
 .promotion{
     display:flex;
@@ -64,10 +85,16 @@
     &__time{
         color: white;
     }
+<<<<<<< HEAD
     width:100%;
+=======
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
 }
 .reigistry{
     height: 10em;
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+<<<<<<< HEAD
     width:100%;
+=======
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
 }

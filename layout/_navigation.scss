@@ -1,7 +1,12 @@
 :root{
+<<<<<<< HEAD
     --color1: none;
     --color2: #ffff;
     --color3: #000000;
+=======
+    --color1: #ef5777;
+    --color2: #575fcf;
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
 }
 .navbar-brand{
     margin-left: 1em;
@@ -13,9 +18,12 @@
     transition: background-color 200ms linear;
   
   }
+<<<<<<< HEAD
   .nav-link,.nav-link:hover{
       color: inherit;
   }
+=======
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
   body{
     margin:0;
     padding: 0;
@@ -30,6 +38,7 @@
 
     height: auto;
     width:100%;
+<<<<<<< HEAD
     background: var(--color1);
     position: fixed;
     border: 1px solid lightgrey;
@@ -40,13 +49,31 @@
 }
 a,a:hover{
     color: inherit;
+=======
+    color: #ffff;
+    position: fixed;
+    border: 1px solid lightgrey;
+    background: var(--color1);
+    font-size: 10px;
+    transition: all 350ms ease-out;
+}
+a,a:hover{
+    color:white;
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
  
 }
 .logo,
 .logo:hover{
     text-decoration: none;
     
+<<<<<<< HEAD
 
+=======
+.logo{
+    color: #ffff;
+  
+}
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     height: auto;
@@ -107,13 +134,41 @@ align-self: flex-end;
 
 
 }
+<<<<<<< HEAD
 
 .flex{
     display: flex;
     
 width: 100%;
 min-width: 50%;
+=======
+.li{
+    color: white; 
+}
+.flex{
+    display: flex;
+
+width: 100%;
+
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
 flex-direction: row;
 justify-content: center;
 }
 
+<<<<<<< HEAD
+=======
+@keyframes shake-bmw{
+0%{
+transform: rotate(30deg);
+}
+60%{
+    transform: rotate(-30deg)
+}
+90%{
+    transform: rotate(30deg)
+}
+100%{
+    transform: rotate(0deg);
+}
+}
+>>>>>>> d3480e9769f51a8c58efe1e9e9e7088d450028ee
