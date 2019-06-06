@@ -1,15 +1,26 @@
 .ourcars{
     height: auto;
+
     &__title{
         font-size: 2em;
        
     }
     &__flex{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 100px;
-        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        width: 100%;    
+        
         height:20%;
+        flex-wrap: wrap;
+        p{
+            font-size: 0.5rem;
+         
+            
+        }
+        
+        
+       
     }
     &__line-bettwen{
         border-left: 6px solid green;
@@ -18,14 +29,29 @@
 
         
     }
-    &__text{
-        background-color: blue;
+    
+     
+    &__border{
+        height: 100%;
+        width: 94%;
+        position: absolute;
+        border: 4px solid goldenrod;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    &__container__img{
+        width:400px;
+        height:300px;
     }
     &__img{
         border: 1px solid greenyellow;
+       
     }
   
-    
+    &__text{
+        background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    }
 }
 .promotion{
     display:flex;
@@ -38,8 +64,10 @@
     &__time{
         color: white;
     }
+    width:100%;
 }
 .reigistry{
     height: 10em;
     background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    width:100%;
 }
